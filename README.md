@@ -5,3 +5,5 @@
 b. Bilangan heksadesimal adalah bilangan yang berbasis …………..
  a. dua b. enam belas 
 </p>
+
+<img width=50% src="https://github.com/RizWithYa/Tugas-1-Sistem-Operasi/blob/main/1.png"/>
