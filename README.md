@@ -7,6 +7,10 @@
 
 <img width=50% src="https://github.com/RizWithYa/Tugas-1-Sistem-Operasi/blob/main/1.png"/>
 
+---
+
+<h5 align="left"><b>Cara : </b></h5>
+<p>Bilangan biner merupakan bilangan yang menunjukkan basis <sub>(2)</sub>, sedangkan bilangan heksadesimal merupakan bilangan basis <sub>(16)</sub> </p>
 
 ---
 
