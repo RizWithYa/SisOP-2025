@@ -1,71 +1,84 @@
+# Tugas 1 Sistem Operasi (17 Feb 2025)
+
+---
+### Nama : Muhammad Rizqi Putra Nugroho
+### NRP : 3124500044
+### Kelas : D3 IT B
+
+---
+---
+
 ## 1  
 **a.** Bilangan biner adalah bilangan yang berbasis **dua**  
-**b.** Bilangan heksadesimal adalah bilangan yang berbasis **enam belas**  
+**b.** Bilangan heksadesimal adalah bilangan yang berbasis **enam belas** 
+
+### Jawaban (Cara) :
+
 
 ---
 
 ## 2  
 Konversikan bilangan desimal di bawah ini ke dalam bilangan biner:  
-**a.** 1234\(_{10}\) → `10011010010`  
-**b.** 5670\(_{10}\) → `1011000100110`  
-**c.** 2321\(_{10}\) → `100100010001`  
+**a.** 1234<sub>10</sub> → `10011010010`  
+**b.** 5670<sub>10</sub> → `1011000100110`  
+**c.** 2321<sub>10</sub> → `100100010001`  
 
 ---
 
 ## 3  
 Konversikan bilangan biner di bawah ini ke dalam bilangan desimal:  
-**a.** 10101010\(_2\) → **170**  
-**b.** 01010101\(_2\) → **85**  
-**c.** 11001100\(_2\) → **204**  
-**d.** 10011111\(_2\) → **159**  
+**a.** 10101010 → **170**  
+**b.** 01010101 → **85**  
+**c.** 11001100 → **204**  
+**d.** 10011111 → **159**  
 
 ---
 
 ## 4  
 Konversikan bilangan biner di bawah ini ke dalam bilangan oktal:  
-**a.** 1 0 1 0 1 1 1 1 0 0 1\(_2\) → **5371\(_8\)**  
-**b.** 1 1 0 0 1 0 1 1 1 1\(_2\) → **6267\(_8\)**  
+**a.** 1 0 1 0 1 1 1 1 0 0 1<sub>2</sub> → **5371\(_8\)**  
+**b.** 1 1 0 0 1 0 1 1 1 1<sub>2</sub> → **6267\(_8\)**  
 
 ---
 
 ## 5  
 Konversikan bilangan oktal di bawah ini ke dalam bilangan biner:  
-**a.** 2170\(_8\) → `0 1 0 0 0 1 1 1 1 0 0 0`  
-**b.** 3571\(_8\) → `0 1 1 1 0 1 1 1 1 0 0 1`  
+**a.** 2170<sub>8</sub> → `0 1 0 0 0 1 1 1 1 0 0 0`  
+**b.** 3571<sub>8</sub> → `0 1 1 1 0 1 1 1 1 0 0 1`  
 
 ---
 
 ## 6  
 Konversikan bilangan desimal di bawah ini ke dalam bilangan heksadesimal:  
-**a.** 1780\(_{10}\) → **06F4**  
-**b.** 3666\(_{10}\) → **0E52**  
-**c.** 5230\(_{10}\) → **146E**  
-**d.** 6744\(_{10}\) → **1A58**  
+**a.** 1780<sub>10</sub> → **06F4**  
+**b.** 3666<sub>10</sub> → **0E52**  
+**c.** 5230<sub>10</sub> → **146E**  
+**d.** 6744<sub>10</sub> → **1A58**  
 
 ---
 
 ## 7  
 Konversikan bilangan heksadesimal di bawah ini ke dalam bilangan desimal:  
-**a.** ABCD\(_{16}\) → **43981**  
-**b.** 2170\(_{16}\) → **8560**  
-**c.** B75F\(_{16}\) → **46943**  
-**d.** EBED\(_{16}\) → **60397**  
+**a.** ABCD<sub>16</sub> → **43981**  
+**b.** 2170<sub>16</sub> → **8560**  
+**c.** B75F<sub>16</sub> → **46943**  
+**d.** EBED<sub>16</sub> → **60397**  
 
 ---
 
 ## 8  
 Konversikan bilangan pecahan desimal di bawah ini ke dalam bilangan biner:  
-**a.** 0,3125\(_{10}\) → **0,0101**  
-**b.** 0,65625\(_{10}\) → **0,10101**  
-**c.** 0,34375\(_{10}\) → **0,01011**  
-**d.** 0,140625\(_{10}\) → **0,001001**  
+**a.** 0,3125<sub>10</sub> → **0,0101**  
+**b.** 0,65625<sub>10</sub> → **0,10101**  
+**c.** 0,34375<sub>10</sub> → **0,01011**  
+**d.** 0,140625<sub>10</sub> → **0,001001**  
 
 ---
 
 ## 9  
 Konversikan bilangan desimal di bawah ini ke dalam bilangan biner:  
 **a.** 11,625<sub>10</sub> → **1011,101**  
-**b.** 0,6875\<sub>10</sub> → **0,1011**  
+**b.** 0,6875<sub>10</sub> → **0,1011**  
 **c.** 0,75<sub>10</sub> → **0,11**  
 **d.** 25,75<sub>10</sub> → **11001,11**  
 
@@ -80,7 +93,7 @@ Konversikan bilangan desimal di bawah ini ke dalam bilangan heksadesimal:
 
 ## 11  
 Konversikan bilangan di bawah ini ke dalam bilangan desimal:  
-**a.** 010100011,001111101\(_2\) → **163,245**  
+**a.** 010100011,001111101<sub>2</sub> → **163,245**  
 **b.** 654,276<sub>8</sub> → **428,371**  
 **c.** 4C5,2B8<sub>16</sub> → **1221,1699**  
 
@@ -154,3 +167,42 @@ Rubahlah bilangan biner di bawah ini ke dalam bentuk BCD:
 | b.   | 11110111       | -9      |
 | c.   | 10000101       | -123    |
 | d.   | 10011100       | -100    |
+
+---
+
+## 19
+**Nyatakan ASCII Code di bawah ini dalam bentuk karakter**
+
+| Soal | ASCII | Jawaban |
+|------|-------|---------|
+| a.   | 41<sub>16</sub> | A   |
+| b.   | 5A41<sub>16</sub> | Z |
+| c.   | 2441<sub>16</sub> | $ |
+| d.   | 7741<sub>16</sub> | W |
+
+---
+
+## 20
+**Nyatakan Karakter di bawah ini dalam ASCII Code**
+
+| Soal | Karakter | Jawaban |
+|------|----------|---------|
+| a.   | a | 61<sub>16</sub> |
+| b.   | x | 78<sub>16</sub> |
+| c.   | m | 6D<sub>16</sub> |
+| d.   | H | 57<sub>16</sub> |
+
+---
+
+## 21
+**Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai
+berikut**
+
+`PRINT X`
+
+Nyatakan keluaran pada keyboard tersebut
+
+`P (101 0000); R (101 0010); I (100 1001); N (100 1110)
+ T (101 0100); space ( 010 0000); X (101 1000)`
+
+
