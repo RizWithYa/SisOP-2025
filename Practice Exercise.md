@@ -1,5 +1,8 @@
-# Operating System Concepts – Practice Questions
-
+# Operating System
+---
+### Nama : Muhammad Rizqi Putra Nugroho
+### NRP : 3124500044
+### Kelas : 1 D3 IT B
 ---
 
 ## 1.1 What are the three main purposes of an operating system?
@@ -40,7 +43,7 @@ If a cache can be made as large as the device for which it is caching (for insta
 ---
 
 
-# Operating System Concepts – Answers
+# Operating System – Answers
 
 Below are concise explanations addressing each of the questions:
 
