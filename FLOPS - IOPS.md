@@ -40,6 +40,9 @@ fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --fi
 
 <p>Command ini akan melakukan pengujian baca/tulis acak dengan ukuran blok 4K dan rasio baca 75%.</p>
 
+---
+
+## Berikut adalah hasilnya :
 <br>
 
 <img src="https://github.com/RizWithYa/SisOP-2025/blob/main/IOPS.png?raw=true" placeholder="Foto Test IOPS Ubuntu">
