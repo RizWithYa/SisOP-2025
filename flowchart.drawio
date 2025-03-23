@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="N1pdN5BbmNV_u-PiVy34">
+    <mxGraphModel dx="1644" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-1" target="v3z0L087ZmJNDmpbPIP_-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;LAPTOP&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-30" vertex="1" connectable="0">
+          <mxGeometry x="0.176" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-1" target="1Qxrdw9PlqHpXiO5vYCm-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;PC&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-31" vertex="1" connectable="0">
+          <mxGeometry x="0.112" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-1" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;POWER ON&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-250" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-2" target="1Qxrdw9PlqHpXiO5vYCm-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-2" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Memulai BIOS/UEFI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="245" y="410" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-3" target="1Qxrdw9PlqHpXiO5vYCm-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-3" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;BIOS/UEFI melakukan POST untuk mengecek hardware&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="570" y="400" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-6" target="1Qxrdw9PlqHpXiO5vYCm-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TIDAK&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-54" vertex="1" connectable="0">
+          <mxGeometry x="-0.2778" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-6" target="v3z0L087ZmJNDmpbPIP_-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;YA&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.0203" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-6" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px;&quot;&gt;Apakah Bootloader ditemukan ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="280" y="640" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-8" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Bootable tidak ditemukan&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="245" y="880" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-10" target="1Qxrdw9PlqHpXiO5vYCm-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-10" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Memulai kernel (device drivers, libraries, dll&lt;/span&gt;&lt;span style=&quot;font-size: 25px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="760" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-11" target="rPX1eheKt5MXQsnfmJ_U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-11" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;RAM dipesan untuk kernel&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-390.5" y="760" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-12" target="1Qxrdw9PlqHpXiO5vYCm-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-12" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;BIOS/UEFI mencari Bootloader di MBR / EFI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="245" y="520" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-14" target="1Qxrdw9PlqHpXiO5vYCm-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-14" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Mengirimkan sinyal listrik ke PSU&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="150" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-15" target="1Qxrdw9PlqHpXiO5vYCm-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-15" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;CPU mengeksekusi BIOS/UEFI dari ROM / NOR flash memory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-82.5" y="390" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-17" target="1Qxrdw9PlqHpXiO5vYCm-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TIDAK&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="1Qxrdw9PlqHpXiO5vYCm-17" target="1Qxrdw9PlqHpXiO5vYCm-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;YA&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-52" vertex="1" connectable="0">
+          <mxGeometry x="-0.0039" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-17" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px;&quot;&gt;Apakah hardware lengkap ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="560" width="155" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1Qxrdw9PlqHpXiO5vYCm-18" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Tidak ada sinyal / booting gagal&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="570" y="750" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-16" target="1Qxrdw9PlqHpXiO5vYCm-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-16" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;RAM dipesan untuk bootloader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="580" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3z0L087ZmJNDmpbPIP_-22" target="v3z0L087ZmJNDmpbPIP_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-22" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Menampilkan tampilan login&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="245" y="1000" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-25" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Sistem berhasil jalan&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1000" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3z0L087ZmJNDmpbPIP_-26" target="v3z0L087ZmJNDmpbPIP_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-26" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Menjalankan startup script&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="880" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-27" target="v3z0L087ZmJNDmpbPIP_-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-27" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Mengirimkan sinyal listrik ke&amp;nbsp;Embedded Controller&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-435.5" y="150" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-28" target="v3z0L087ZmJNDmpbPIP_-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TIDAK&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.4167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-28" target="1Qxrdw9PlqHpXiO5vYCm-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;YA&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.1342" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-28" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px;&quot;&gt;Apakah tercolok charger ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-388" y="280" width="145" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-29" target="1Qxrdw9PlqHpXiO5vYCm-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TIDAK&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.042" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-29" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px;&quot;&gt;Apakah low-battery ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-388" y="480" width="145" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3z0L087ZmJNDmpbPIP_-67" target="v3z0L087ZmJNDmpbPIP_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-67" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Merender tampilan GUI / CLI&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="1000" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-78" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Tidak menyala&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-390.5" y="690" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" parent="1" source="v3z0L087ZmJNDmpbPIP_-29" target="v3z0L087ZmJNDmpbPIP_-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JiFCMWZyBktoaUaTooh-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;YA&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v3z0L087ZmJNDmpbPIP_-79" vertex="1" connectable="0">
+          <mxGeometry x="-0.2618" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-89" value="&lt;font style=&quot;font-size: 60px;&quot;&gt;FLOWCHART BOOTING OPERASI SISTEM&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="190" y="30" width="630" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-90" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;FAHROLDHI SUKIRNO&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="420" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3z0L087ZmJNDmpbPIP_-92" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;3124500046&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="490" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rPX1eheKt5MXQsnfmJ_U-1" target="rPX1eheKt5MXQsnfmJ_U-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-1" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Menjalankan file init (systemd,&amp;nbsp;wininit.exe)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-390.5" y="880" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rPX1eheKt5MXQsnfmJ_U-3" target="v3z0L087ZmJNDmpbPIP_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPX1eheKt5MXQsnfmJ_U-3" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Menjalankan file .target&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-390.5" y="1000" width="240" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
