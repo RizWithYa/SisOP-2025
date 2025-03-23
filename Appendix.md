@@ -70,5 +70,3 @@ Recent advancements such as virtualization, containerization, mobile computing, 
   - *Additional Trends:* Recent years have also seen developments in edge computing and IoT, further expanding the roles and capabilities of operating systems in a connected world.
 
 ---
-
-This extended summary and timeline provide a comprehensive look into the fundamental concepts and historical evolution presented in *Operating System Concepts* (10th Edition). It highlights the critical milestones and technological advancements that have shaped modern operating systems while offering insights into future trends in the field.
