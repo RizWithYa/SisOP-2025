@@ -18,5 +18,28 @@ ___
 
 # Mengukur IOPS:
 
-### 
+### IOPS mengukur jumlah operasi input/output yang dapat ditangani oleh perangkat penyimpanan per detik. Untuk mengukur IOPS, Anda dapat menggunakan alat seperti FIO (Flexible I/O Tester) atau Aplikasi benchmark lainnya seperti crystalbenchmark. ###
 
+<p>Pada kali ini, kita akan mengetes Benchmarking pada Ubuntu menggunakan FIO, Untuk cara penginstalannya seperti langkah berikut :</p>
+
+---
+
+### Ubuntu/Debian
+```bash
+sudo apt-get update
+sudo apt-get install fio
+```
+
+---
+
+#### Setelah melakukan instalasi, maka kita dapat menjalankan benchmarking menggunakan FIO pada Ubuntu. Untuk melakukan benchmarking, maka dapat dilakukan dengan command berikut ini : ####
+
+```bash
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test --bs=4k --iodepth=64 --size=4G --readwrite=randrw --rwmixread=75
+```
+
+<p>Command ini akan melakukan pengujian baca/tulis acak dengan ukuran blok 4K dan rasio baca 75%.</p>
+
+<br>
+
+<img src="https://github.com/RizWithYa/SisOP-2025/blob/main/IOPS.png?raw=true" placeholder="Foto Test IOPS Ubuntu">
