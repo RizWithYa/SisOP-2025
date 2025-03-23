@@ -1,4 +1,4 @@
-
+# SUMMARY APPENDIX A
 *Operating System Concepts* by Abraham Silberschatz, Peter B. Galvin, and Greg Gagne is an extensive resource covering the core ideas, design principles, and implementation techniques of modern operating systems. It guides readers from the foundational functions of an OS—like process management, memory management, file systems, and I/O—to advanced topics such as security, distributed systems, and virtualization. The text is designed for both beginners and experienced users who wish to understand how operating systems evolve and adapt to changing hardware and computing paradigms.
 
 ---
