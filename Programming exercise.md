@@ -1,3 +1,7 @@
+# Nama : Muhammad Rizqi Putra Nugroho
+# NRP : 3124500044
+# Kelas : 1 D3 IT B
+
 ## Programming Exercise 
 ### Nomor 1
 ```
