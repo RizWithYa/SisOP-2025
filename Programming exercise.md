@@ -108,3 +108,82 @@ Berikut adalah penjelasan penerapan thread pada contoh tersebut:
 Penerapan thread dalam contoh ini **implisit** dikelola oleh `ForkJoinPool`. Pemrogram tidak secara manual membuat atau mengelola `Thread` individual. Sebaliknya, pemrogram mendefinisikan bagaimana tugas besar dapat dipecah (`fork`) menjadi sub-tugas yang lebih kecil dan bagaimana hasilnya digabungkan (`join`). `ForkJoinPool` kemudian secara efisien menjalankan sub-tugas ini menggunakan *worker threads*-nya, memanfaatkan paralelisme pada sistem multi-core.
 
 <img src="Prac1.png">
+
+### Nmmor 2
+### A. Penerapan Thread di Linux (thrd-posix.c)
+
+```
+/**
+ * A pthread program illustrating how to
+ * create a simple thread and some of the pthread API
+ * This program implements the summation function where
+ * the summation operation is run as a separate thread.
+ *
+ * Most Unix/Linux/OS X users
+ * gcc thrd.c -lpthread
+ *
+ * Figure 4.11
+ *
+ * @author Gagne, Galvin, Silberschatz
+ * Operating System Concepts  - Tenth Edition
+ * Copyright John Wiley & Sons - 2018
+ */
+
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int sum; /* this data is shared by the thread(s) */
+
+void *runner(void *param); /* the thread */
+
+int main(int argc, char *argv[])
+{
+pthread_t tid; /* the thread identifier */
+pthread_attr_t attr; /* set of attributes for the thread */
+
+if (argc != 2) {
+	fprintf(stderr,"usage: a.out <integer value>\n");
+	/*exit(1);*/
+	return -1;
+}
+
+if (atoi(argv[1]) < 0) {
+	fprintf(stderr,"Argument %d must be non-negative\n",atoi(argv[1]));
+	/*exit(1);*/
+	return -1;
+}
+
+/* get the default attributes */
+pthread_attr_init(&attr);
+
+/* create the thread */
+pthread_create(&tid,&attr,runner,argv[1]);
+
+/* now wait for the thread to exit */
+pthread_join(tid,NULL);
+
+printf("sum = %d\n",sum);
+}
+
+/**
+ * The thread will begin control in this function
+ */
+void *runner(void *param) 
+{
+int i, upper = atoi(param);
+sum = 0;
+
+	if (upper > 0) {
+		for (i = 1; i <= upper; i++)
+			sum += i;
+	}
+
+	pthread_exit(0);
+}
+```
+
+Penerapan thread dalam kode C (`thrd.c`) ini menggunakan pustaka **POSIX Threads (pthreads)**, yang merupakan standar de facto untuk threading pada sistem operasi mirip Unix, termasuk Linux. Program ini mendemonstrasikan pembuatan thread dasar: thread utama (yang mengeksekusi fungsi `main`) membuat satu thread pekerja tambahan. Fungsi `runner` didefinisikan sebagai titik masuk untuk thread pekerja ini; tugasnya adalah menghitung jumlah total bilangan bulat dari 1 hingga angka (`upper`) yang diterima sebagai parameter. Angka ini awalnya berasal dari argumen baris perintah (`argv[1]`) dan dilewatkan saat pembuatan thread. Komunikasi hasil antara thread pekerja dan thread utama dilakukan melalui variabel global `sum`, yang merupakan data bersama (*shared data*). Di dalam `main`, fungsi `pthread_create()` menjadi kunci pembuatan thread baru; fungsi ini menerima ID thread (`tid`), atribut thread (`attr` yang diinisialisasi ke default dengan `pthread_attr_init()`), pointer ke fungsi yang akan dijalankan thread (`runner`), dan argumen untuk fungsi tersebut (`argv[1]`). Setelah thread pekerja dibuat dan mulai berjalan, thread utama segera memanggil `pthread_join(tid, NULL)`. Panggilan ini bersifat *blocking*, artinya thread utama akan berhenti sejenak dan menunggu sampai thread pekerja (yang diidentifikasi oleh `tid`) selesai menjalankan tugasnya dan keluar (menggunakan `pthread_exit(0)` di dalam `runner`). Setelah `pthread_join()` kembali (menandakan thread pekerja telah selesai), thread utama dapat dengan aman mengakses nilai akhir dalam variabel global `sum` dan mencetaknya ke layar. Ini adalah pola umum dalam pemrograman multithread: mendelegasikan tugas ke thread lain, menunggu penyelesaiannya, dan kemudian menggunakan hasilnya.
+
+<b>Berikut adalah Hasilnya :</b>
+<img src="Prac2.png">
