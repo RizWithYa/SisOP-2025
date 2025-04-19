@@ -1,8 +1,6 @@
-Tentu, respons saya sebelumnya sudah mencakup **keduanya**: kode sumber `SumTask.java` *dan* penjelasannya, semuanya dalam satu format file Markdown (`.md`).
-
-Apakah mungkin Anda melewatkan bagian penjelasan setelah blok kode? Saya akan tampilkan lagi respons lengkapnya di bawah ini. Anda dapat menyalin seluruh teks di dalam blok ` ```md ... ``` ` untuk mendapatkan file Markdown yang berisi kode dan penjelasannya.
-
-```md
+## Programming Exercise 
+### Nomor 1
+```
 /**
  * Fork/join parallelism in Java
  *
@@ -105,4 +103,4 @@ Berikut adalah penjelasan penerapan thread pada contoh tersebut:
 
 Penerapan thread dalam contoh ini **implisit** dikelola oleh `ForkJoinPool`. Pemrogram tidak secara manual membuat atau mengelola `Thread` individual. Sebaliknya, pemrogram mendefinisikan bagaimana tugas besar dapat dipecah (`fork`) menjadi sub-tugas yang lebih kecil dan bagaimana hasilnya digabungkan (`join`). `ForkJoinPool` kemudian secara efisien menjalankan sub-tugas ini menggunakan *worker threads*-nya, memanfaatkan paralelisme pada sistem multi-core.
 
-<img src="">
+<img src="Prac1.png">
