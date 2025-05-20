@@ -323,6 +323,7 @@ struct proc {
 
 Berikut adalah Gantt chart berdasarkan waktu eksekusi proses:
 
+![image](https://github.com/user-attachments/assets/e7da4a3c-7bbd-42ab-97d1-3eda69f14d8a)
 
 
 ---
