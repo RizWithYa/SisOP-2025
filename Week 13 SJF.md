@@ -273,13 +273,13 @@ Berikut ini adalah penjelasan, analisa kelebihan dan kekurangan, serta Gantt cha
 
 # Analisa Program SRTF (Shortest Remaining Time First) Scheduling Algorithm
 
-## 📌 Deskripsi Program
+## Deskripsi Program
 
 Program ini mengimplementasikan algoritma penjadwalan proses **SRTF (Shortest Remaining Time First)** secara preemptive. Algoritma ini memilih proses yang memiliki waktu eksekusi (burst time) tersisa paling kecil dan melakukan preempt saat proses lain yang lebih pendek tiba.
 
 ---
 
-## 🔍 Penjelasan Kode
+## Penjelasan Kode
 
 ### Struktur Data
 c
@@ -308,7 +308,7 @@ struct proc {
 
 ---
 
-## 📈 Hasil Output (Sesuai Gambar)
+##  Hasil Output (Sesuai Gambar)
 
 | Process | AT | BT | CT | TAT | WT |
 | ------- | -- | -- | -- | --- | -- |
@@ -319,7 +319,7 @@ struct proc {
 
 ---
 
-## 🧮 Gantt Chart
+##  Gantt Chart
 
 Berikut adalah Gantt chart berdasarkan waktu eksekusi proses:
 
@@ -328,9 +328,9 @@ Berikut adalah Gantt chart berdasarkan waktu eksekusi proses:
 
 ---
 
-## ✅ Kelebihan dan ❌ Kekurangan
+##  Kelebihan dan Kekurangan
 
-| Aspek              | Kelebihan ✅                                                                      | Kekurangan ❌                                                                              |
+| Aspek              | Kelebihan                                                                       | Kekurangan                                                                               |
 | ------------------ | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Akurasi            | Menampilkan hasil `CT`, `TAT`, dan `WT` dengan benar                             | Tidak menyimpan urutan eksekusi secara eksplisit                                          |
 | Algoritma          | Menggunakan pendekatan preemptive SRTF yang optimal untuk waktu tunggu rata-rata | Kompleksitas tinggi saat proses banyak karena pencarian proses aktif dilakukan tiap detik |
@@ -340,7 +340,7 @@ Berikut adalah Gantt chart berdasarkan waktu eksekusi proses:
 
 ---
 
-## 📊 Rata-Rata
+##  Rata-Rata
 
 * **Average Turnaround Time**: 11.00
 * **Average Waiting Time**: 5.00
