@@ -266,8 +266,6 @@ int main() {
 
 ![WhatsApp Image 2025-05-20 at 11 27 30_82da654b](https://github.com/user-attachments/assets/42d60471-71e7-45dc-a386-e1bbb6ffe876)
 
-Berikut ini adalah penjelasan, analisa kelebihan dan kekurangan, serta Gantt chart dari program SRTF Scheduling (Shortest Remaining Time First) berbasis preemptive. Format jawaban dalam bentuk .md file (Markdown).
-
 ---
 
 
