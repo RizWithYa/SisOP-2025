@@ -30,7 +30,7 @@ int main() {
 
     return 0; // Mengindikasikan eksekusi sukses
 }
-
+```
 Penjelasan Contoh:
  * Panggilan fork() digunakan untuk menciptakan proses anak.
  * Nilai pid yang negatif menandakan bahwa proses forking tidak berhasil.
