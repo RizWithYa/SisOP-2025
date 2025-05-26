@@ -40,9 +40,8 @@ Penjelasan Contoh:
 Apakah Kode print123thread.c Menggunakan Forking?
 Tidak. Berdasarkan analisis, kode yang terdapat pada tautan print123thread.c tidak menggunakan mekanisme forking. Sebaliknya, kode tersebut memanfaatkan threading menggunakan pustaka pthread untuk menjalankan tiga thread secara tersinkronisasi.
 <br>
-
-Analisis Kode print123thread.c
-Setelah ditinjau, kode pada print123thread.c tidak menggunakan fork(), melainkan mengimplementasikan threading dengan pthread. Tujuannya adalah untuk mencetak angka 1, 2, dan 3 secara berurutan dan terus-menerus. 
+<h4>Analisis Kode print123thread.c</h4>
+<h5>Setelah ditinjau, kode pada print123thread.c tidak menggunakan fork(), melainkan mengimplementasikan threading dengan pthread. Tujuannya adalah untuk mencetak angka 1, 2, dan 3 secara berurutan dan terus-menerus.</h5> 
 ---
 Berikut adalah rincian cara kerjanya:
  * Inisialisasi Program: Kode memulai dengan mengimpor pustaka-pustaka yang dibutuhkan. Selanjutnya, variabel-variabel global dideklarasikan, termasuk sebuah mutex (pthread_mutex_t) dan variabel-variabel kondisi (pthread_cond_t) yang esensial untuk sinkronisasi antar thread.
